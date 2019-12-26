@@ -18,10 +18,9 @@
             android:id="@+id/collapsing_toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:theme="@style/AppTheme.AppBarOverlay"
-            app:collapsedTitleTextAppearance="@style/TextAppearanceInverted"
+            app:collapsedTitleTextAppearance="?android:textColorPrimary"
             app:contentScrim="?attr/colorPrimary"
-            app:expandedTitleTextAppearance="@style/TextAppearanceTransparent"
+            app:expandedTitleTextAppearance="?android:textColorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <RelativeLayout
